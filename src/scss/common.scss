@@ -1,0 +1,141 @@
+$border-color:#e1e4e8;
+
+* {
+    box-sizing: border-box;
+}
+
+.height-full {
+    height: 100%;
+}
+
+.height-zero {
+    height: 0;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.flex-grow {
+    flex: 1
+}
+
+.flex-box {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute-left {
+    left: 0px
+}
+
+.absolute-right {
+    right: 0px
+}
+
+.absolute-left-margin {
+    top: 6px;
+    left: 10px;
+}
+
+.absolute-right-margin {
+    top: 6px;
+    right: 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.default-border {
+    border-radius: 6px;
+    border: 1px solid $border-color;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.default-padding {
+    padding: 8px;
+}
+
+.default-margin {
+    margin: 8px;
+}
+
+.default-minus-margin {
+    margin: 0 -8px;
+}
+
+.icon-circle {
+    border: 1px solid transparent;
+    border-radius: 2em;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgba(209, 213, 218, .5);
+    padding: 0 6px;
+}
+
+.btn {
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn-submit {
+    background: #94d3a2;
+    color: hsla;
+}
+
+.btn-cancel {
+    background-color: #fafbfc;
+    color: #24292e;
+}
+
+.dimmed {
+    z-index: 3;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.modal {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    outline: 0;
+    width: 600px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 12px;
+}
+
+.hide {
+    display: none;
+}
